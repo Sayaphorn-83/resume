@@ -1,0 +1,43 @@
+.head{
+    background-color: rgb(51, 51, 51);
+}
+img{
+    width: 850px;
+    padding: 5% 5% 5% 10%;
+}
+p.name{
+    font-size: 30px;
+    color: white;
+}
+table.tbody{
+    margin: 3%;
+}
+
+h2{
+    text-align: center;
+    background-color: rgb(211, 211, 211);
+    border: 1px;
+    border-radius: 20px;
+    width: 850px;
+    padding: 3%; 
+}
+tr{
+    text-align: left;
+}
+
+th.th2{
+    padding-left: 2%;
+    font-size: 280%;
+}
+th.th4{
+    padding-left: 2%;
+    font-size: 280%;
+}
+.edu{
+    width: 50%;
+}
+.line{
+    border-left: 6px solid rgb(0, 0, 0);
+    height: 200px;
+    margin-left: 27%;
+}
