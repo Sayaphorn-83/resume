@@ -10,26 +10,23 @@
         <!-- JavaScript Bundle with Popper -->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
         <style>
-            .btncolor{
+            .btn{
                 background-color: rgb(121, 121, 167);
+                color: #000;
             }
             .logog{
-                width: 30px;
+                width: 3%;
             }
             body{
                 background-color: rgb(246, 198, 206);
             }
-            .box1{
-                margin: 5% 2% 2% 2% ;
-                background-color: white;
-            }
             .textcat1{
-                font-size: 90px;
-                margin-top: 30px;
-                margin-bottom: 50px;
+                font-size: 400%;
+                margin-top: 30%;
+                margin-right: 30%;
             }
             .memecat1{
-                width: 400px;
+                width: 600%;
             }
             .btncolorcat1{
                 background-color: rgb(121, 121, 167);
@@ -80,52 +77,77 @@
             .bbb{
                 margin-top: 3%;
             }
+            .tt{
+                width: 100%;
+            }
+            .fff{
+                text-align: center;
+            }
+            .ff{
+                text-align: right;
+            }
         </style>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg bg-light">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">
-            <img class="logog" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_Logo.svg/2048px-Google_%22G%22_Logo.svg.png" alt="">
-          </a>
-          <ul class="nav justify-content-end">
-                <li class="nav-item">
-                    <a href="#" class="navbar-brand btn">Features</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#" class="navbar-brand btn">Pricing</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#" class="navbar-brand btn">Cummunity</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#" class="navbar-brand btn">Support</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#" class="navbar-brand btn btncolor">Register</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
-    <div class="box1">
+    <nav class="navbar bg-light">
         <div class="container">
-            <div class="row">
-                <div class="col-9">
-                   <h2 class="textcat1">The Largest community <br>of photo enthusiasts</h2> 
-                   <center><a href="index.html" class="btn btncolorcat1">Join Today</a></center>
-                </div>
-                <div class="col-3">
-                    <img class="memecat1" src="https://i.pinimg.com/564x/98/fc/88/98fc8863c7e68df57cd7ad7442f0ec18.jpg" alt="">
-                </div>
-            </div> 
+          <a class="navbar-brand" href="#">
+            <img  class="logog" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_Logo.svg/2048px-Google_%22G%22_Logo.svg.png" alt="Bootstrap" >
+          </a>
+        </div>
+        <ul class="nav justify-content-end">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Community</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Support</a>
+              </li>
+            <li class="nav-item">
+                <button class="btn" type="submit">Register</button>
+            </li>
+          </ul>
+      </nav>
+    
+    </nav>
+    <div class="card box2">
+        <div class="card-body">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                       <h2 class="textcat1">The Largest community of photo enthusiasts  
+                            <center><a href="index.html" class="btn btncolorcat1">Join Today</a></center>
+                       </h2> 
+                    </div>
+                    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                        <img class="img-fluid " src="https://i.pinimg.com/564x/98/fc/88/98fc8863c7e68df57cd7ad7442f0ec18.jpg" alt="">
+                    </div>
+                </div> 
+            </div>
         </div>
     </div>
-    <div class="box2">
-        <h2 class="textcat2">Learn about all the features <br>of the Photo app</h2>
-        <img class="memecat2" src="https://hips.hearstapps.com/hmg-prod/images/womanyellingcat-1573233850.jpg" alt="">
+    <div class="card box3">
+        <div class="card-body">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
+                       <h2 class="textcat2">Learn about all the features of the Photo app</h2> 
+                    </div>
+                    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
+                        <img class="img-fluid " src="https://hips.hearstapps.com/hmg-prod/images/womanyellingcat-1573233850.jpg" alt="">
+                    </div>
+                </div> 
+            </div>
+        </div>
     </div>
+
     <div class="box3">
-        <h2 class="textcat2">Snap photos and share <br>like never before</h2>
+        <h2 class="textcat2">Snap photos and share like never before</h2>
         <p class="textmemecat2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod <br>tempor incididunt ut labore</p>
         <div class="container">
             <div class="row gogo">
@@ -155,24 +177,13 @@
         </div>
     </div>
 
-    <footer class="footy">
-        <div class="container">
-            <div class="row">
-                <div class="col col-3">        
-                    <img class="logogfoot" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_Logo.svg/2048px-Google_%22G%22_Logo.svg.png" alt="">
-                </div>
-                <div class="col col-6 text-center bbb">
-                    <b class="bb">Mobile app</b>
-                    <b class="bb">Community</b>
-                    <b class="bb">Company</b>
-                </div>
-                <div class="col col-3 bbb">
-                    <p class="textfoot">© Photo, Inc. 2019. We love our users!</p>
-                </div>
-
-            </div>
-            
+    <footer class="bg-light">
+        <div>
+            <img  class="logog" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_Logo.svg/2048px-Google_%22G%22_Logo.svg.png" alt="Bootstrap" >
+        <center><b class="fff">Mobile app  Community   Company</b></center>
+                <p class="ff">© Photo, Inc. 2019. We love our users!</p>
         </div>
+        
     </footer>
 </body>
 </html>

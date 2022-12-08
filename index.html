@@ -12,33 +12,27 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
     <style>
         img{
-            width: 300px;
-            padding: 5% 5% 5% 10%;
+            width:  100%;
         }
         p.name{
-            font-size: 26px;
-            margin-top: 20%;
+            font-size: 200%;
+            padding-top: 10%;
             color: white;
             align-items: center;
-        }
-        .head{
-            width: 100%;
-            background-color: rgb(51, 51, 51);
         }
         h1{
             background: rgb(214, 214, 214);
             border-radius: 10px;
+            font-size: 150%;
             text-align: center;
+            padding: 1%;
         }
         .tr{
             text-align: right;
         }
-        .pic{
-            width: 100px;
-            height: 100px;
-        }
         .tt{
             margin-top: 20%;
+            font-size: 120%;
         }
         .th{
             margin-top: 10%;
@@ -47,38 +41,48 @@
             margin-left: 5%;
         }
         .wongkom{
-            font-size: 30px;
+            font-size: 120%;
             text-align: left;
             margin-left: 40%;
         }
         p{
-            font-size: 20px;
+            font-size: 100%;
         }
         .btn{
             width: 80%;
             height: 35px;
             margin: 10px;
         }
+        .imgg{
+            width: 80%;
+        }
+        .gggg{
+            padding-left: 10%;
+        }
+
     </style>
 </head>
 <body>
-    <div class="head">
-        <div class="container">
-            <div class="row">
-                <div class="col">
-                    <img src="me.jpg">
-                </div>
-                <div class="col-6">
-                    <p class="name">Sayaphorn Hlognthong <br> (faii)</p>
+    <div class="card">
+        <div class="card-body text-bg-dark ">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-xl-4 col-lg-6 col-md-4 col-sm-12">
+                        <img src="me.jpg">
+                    </div>
+                    <div class="col-xl-8 col-lg-8 col-md-8 col-sm-12">
+                        <p class="name">Sayaphorn Hlognthong <br> (faii)</p>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
+<br>
     <div class="container-fluid">
         <div class="card">
             <div class="card-body">
                 <div class="row">
-                    <div class="col-6">
+                    <div class="col-xl-6 col-lg-6 col-md-4 col-sm-12">
                         <h1>ABOUT ME</h1>
                         <div class="row">
                             <div class="col-6 tr">
@@ -116,55 +120,57 @@
                         </div>
                     </div>
 
-                    <div class="col-6">
-                        <div class="row">
+                    <div class="col-xl-6 col-lg-6 col-md-4 col-sm-12">
+                        <div class="row ">
                             <h1>CONTACT</h1>
-                            <div class="col-4">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" fill="currentColor" class="bi bi-phone" viewBox="0 0 16 16">
-                                    <path d="M11 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h6zM5 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H5z"/>
-                                    <path d="M8 14a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"/>
-                                </svg>
-                            </div>
-                            <div class="col-6">
-                                <p class="tt">095-523-1708</p>
-                            </div>
-                            <div class="col-3 gg">
-                                <svg xmlns="http://www.w3.org/2000/svg"  width="100%" height="100%" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
-                                    <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z"/>
-                                </svg>
+                                <div class="col-12">
+                                    <div class="gggg">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="10%" height="10%"  fill="currentColor" class="bi bi-phone" viewBox="0 0 16 16">
+                                            <path d="M11 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h6zM5 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H5z"/>
+                                            <path d="M8 14a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"/>
+                                        </svg>
+                                        <i class="tt">095-523-1708</i>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="gggg">                                        <svg xmlns="http://www.w3.org/2000/svg"  width="10%" height="10%" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
+                                        <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z"/>
+                                    </svg>
+                                    <i class="tt">sayapronsayapron@gmail.com</i>
+                                </div>
                             </div>
                             <div class="col-8">
-                                <p class="th">sayapronsayapron@gmail.com</p>
+                                <p class="th"></p>
                             </div>
                         </div>
                     </div>
                     
                 </div>
                 <div class="row">
-                    <div class="col-6">
+                    <div class="col-xl-6 col-lg-6 col-md-4 col-sm-12">
                         <h1>EDUCATION</h1>
                         <div class="row">
-                            <div class="col-4">
-                                <img class="pic" src="pic1.jpg" alt="">
+                            <div class="col-6">
+                                <img class="imgg" src="pic1.jpg" alt="">
                             </div>
-                            <div class="col-8">
-                                <p>Wat Kha Chao <br> 2007-2013</p>
+                            <div class="col-6">
+                                <p class="tt">Wat Kha Chao <br> 2007-2013</p>
                             </div>
-                            <div class="col-4">
-                                <img class="pic" src="pic2.png" alt="">
+                            <div class="col-6">
+                                <img class="imgg" src="pic2.png" alt="">
                             </div>
-                            <div class="col-8">
-                                <p>Kawilawittayalai<br> 2014-2016</p>
+                            <div class="col-6">
+                                <p class="tt">Kawilawittayalai<br> 2014-2016</p>
                             </div>
-                            <div class="col-4">
-                                <img class="pic" src="pic3.png" alt="">
+                            <div class="col-6">
+                                <img class="imgg" src="pic3.png" alt="">
                             </div>
-                            <div class="col-8">
-                                <p>Lanna Polytechnic Chiang mai Technological College<br> 2017 - Persent</p>
+                            <div class="col-6">
+                                <p class="tt">Lanna Polytechnic Chiang mai Technological College<br> 2017 - Persent</p>
                             </div>
                         </div>
                     </div>
-                    <div class="col-6">
+                    <div class="col-xl-6 col-lg-6 col-md-4 col-sm-12">
                         <h1>SKILL</h1>
                         <div class="row">
                             <div class="col-12 trr">
